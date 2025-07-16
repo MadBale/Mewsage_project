@@ -1,0 +1,7 @@
+
+to run local server:
+    normal: uvicorn main:app --reload
+    specific: uvicorn main:app --host 0.0.0.0 --port 8000
+
+to test: http://localhost:8000/docs
+
